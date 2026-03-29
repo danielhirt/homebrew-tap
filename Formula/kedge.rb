@@ -2,27 +2,27 @@ class Kedge < Formula
   desc "Documentation drift detection and remediation CLI"
   homepage "https://github.com/danielhirt/kedge"
   license "Apache-2.0"
-  version "0.3.0"
+  version "0.3.1"
 
   on_macos do
     on_intel do
-      url "https://github.com/danielhirt/kedge/releases/download/v0.3.0/kedge-x86_64-apple-darwin.tar.gz"
-      sha256 "6d5a1797b0db6879f55907493bf5aeea4e2e3e082ad7b6d697a4378733bc2242"
+      url "https://github.com/danielhirt/kedge/releases/download/v0.3.1/kedge-x86_64-apple-darwin.tar.gz"
+      sha256 "8c203b780d3f05763269e67af7c973f7a3010e5725f08db9e8eeadb9affeb2b6"
     end
     on_arm do
-      url "https://github.com/danielhirt/kedge/releases/download/v0.3.0/kedge-aarch64-apple-darwin.tar.gz"
-      sha256 "3a7c5fb69b420d5df572f0d6bad3a7fd715629a23b0f2c0e874c20d23079f8a9"
+      url "https://github.com/danielhirt/kedge/releases/download/v0.3.1/kedge-aarch64-apple-darwin.tar.gz"
+      sha256 "f58124d941d2d52a2e0b3be31caae191137b573a491760168682fd3e6b2fdab6"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/danielhirt/kedge/releases/download/v0.3.0/kedge-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "3559c72767e2e06bb7e95ecda199be04447ab30482a5d195a58c28178d18673e"
+      url "https://github.com/danielhirt/kedge/releases/download/v0.3.1/kedge-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "3e6c3d3f10df2fe1ecde4bf8174fe89f41df7052c3f7a141eb1fe9c38ee1ae66"
     end
     on_arm do
-      url "https://github.com/danielhirt/kedge/releases/download/v0.3.0/kedge-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "4e14480fdf560465538ca0fa0637e6db0171e5f7adb5566103276bd5216af70c"
+      url "https://github.com/danielhirt/kedge/releases/download/v0.3.1/kedge-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "4b0436de119245630f3b0e77fdf437f78e971bfcf6a263f5a9a90a79e9b0bda5"
     end
   end
 
